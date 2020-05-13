@@ -1,0 +1,29 @@
+.headerr .name{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 210px;
+    font-family: 'Satisfy', cursive;
+}
+.headerr .par{
+    font-size: 16px;
+    padding-top: 50px;
+    color: #777777;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*  Start Responsive */
+    /* for Mobile */
+    @media (max-width: 767px) {
+        .headerr .name {
+            text-align: center;
+            font-size: 25px;
+            padding-top: 25px;
+            font-family: 'Satisfy', cursive;
+        }
+    }

@@ -1,0 +1,154 @@
+.blog {
+    background-image: url(../../../Images/About.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.blog .blogg{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    padding: 260px 0;
+    font-family: 'Satisfy', cursive;
+}
+.blog .imgg1{
+    width: 90%;
+}
+.blog h1{
+    padding: 45px 0;
+    font-family: 'Satisfy', cursive;
+}
+.blog p{
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.secndcol {
+    background-color: #ada8a81f;
+    border: 1px solid beige;
+}
+.blog .search {
+    padding: 15px 30px;
+    width: 70%;
+    margin: 40px 45px;
+}
+.blog .btnnn {
+    padding: 10px 20px;
+    width: 70%;
+    background-color: white;
+    border: 1px solid orange;
+    color: black;
+    margin: 0 45px;
+}
+.blog .btnnn:hover{
+    background-color: orange;
+    color: white;
+}
+.blog h5{
+    margin-top: 80px;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.blog .listt{
+    background-color: #d0d0d01f;
+    border: 1px solid beige;
+}
+
+
+.datablog{
+    padding: 40px 0;
+}
+
+
+
+.firstcol {
+    border: 1px solid beige;
+    margin: 55px 0;
+    background-color: #ada8a81f;
+    padding: 15px 0;
+}
+.firstcol .listt{
+    font-family: 'Satisfy', cursive;
+}
+.firstcol .listt:hover {
+    color: orange;
+}
+
+
+
+.thirdcol {
+    margin-top: 270px;
+    border: 1px solid beige;
+    background-color: #ada8a81f;
+    padding: 35px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Start Responsive */
+    /* for Mobile */
+    @media (max-width: 767px) {
+        .blog {
+            background-repeat: no-repeat;
+            background-image: url(/static/media/About.d4d176e6.png);
+            background-size: cover;
+            height: 40vh;
+        }
+        .blog .blogg{
+            text-align: center;
+            font-size: 35px;
+            color: white;
+            padding: 155px 0;
+            font-family: 'Satisfy', cursive;
+        }
+        .blog .imgg1 {
+            width: 100%;
+        }
+        .blog h1 {
+            padding: 35px 0;
+            font-family: 'Satisfy', cursive;
+            font-size: 20px;
+        }
+        .blog p {
+            font-size: 14px;
+            text-align: left;
+        }
+        .blog .search {
+            padding: 15px 2px;
+            width: 80%;
+            margin: 40px 10px;
+        }
+        .blog .btnnn {
+            padding: 10px 20px;
+            width: 80%;
+            background-color: white;
+            border: 1px solid orange;
+            color: black;
+            margin: 0 10px;
+        }
+        .blog h5 {
+            margin-top: 15px;
+            font-family: 'Satisfy', cursive;
+            font-size: 20px;
+            padding: 8px 20px;
+        }
+        .firstcol {
+            border: 1px solid beige;
+            margin: 40px 0;
+            background-color: #ada8a81f;
+            padding: 15px 0;
+        }
+    }

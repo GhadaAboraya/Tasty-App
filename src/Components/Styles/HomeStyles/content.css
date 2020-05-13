@@ -1,0 +1,109 @@
+.content{
+    margin-top: 200px;
+}
+.dataContent{
+    text-align: center;
+    margin: 0 25px;
+}
+.img{
+    width: 65%;
+}
+h2{
+    text-align: center;
+    font-size: 27px;
+    padding-top:30px;
+    font-family: 'Satisfy', cursive;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #777777;
+}
+h3{
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #6c6d6d;
+}
+.button{
+    text-align: center;
+    padding: 20px 0;
+}
+.mybtn{
+    border: 1px solid #ffc107;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 15px 0;
+}
+.mybtn h5{
+    color: black !important;
+    font-size: 15px;
+}
+.mybtn:hover{
+    background-color: #ffc107;
+    color: white ;
+    border-color: #ffc107;
+}
+
+
+
+
+
+
+
+ /*  Start Responsive */
+    /* for Mobile */
+    @media (max-width: 767px) {
+        .content {
+            margin-top: 10px;
+        }
+        .content .dataContent {
+            text-align: center;
+            margin: 0 75px;
+        }
+        .content .img {
+            width: 45%;
+        }
+        .content h2 {
+            text-align: center;
+            font-size: 20px;
+            padding-top: 30px;
+            font-family: 'Satisfy', cursive;
+        }
+    }
+
+
+
+
+
+       
+/*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+    .content {
+        margin-top: 120px;
+    }
+    .dataContent {
+        text-align: center;
+        margin: 0 180px;
+    }
+}
+    
+
+
+
+
+
+/* for Laptop */
+@media(min-width: 992px) and (max-width: 1199px) {
+    .content {
+        margin-top: 120px;
+    }    
+    .dataContent {
+        text-align: center;
+        margin: 0 -15px;
+    }
+}

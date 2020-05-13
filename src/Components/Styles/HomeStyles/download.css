@@ -1,0 +1,292 @@
+.download{
+    margin-top: 200px;
+}
+.download .img1{
+    margin: 0 40px;
+}
+.download .img2 {
+    position: absolute;
+    margin: 80px -610px;
+}
+.download .img3{
+    position: absolute;
+    margin: 370px -315px;
+}
+.download h1{
+    margin-top: 60px;
+    font-size: 58px;
+    margin-left: 35px;
+    color: black;
+    font-family: 'Satisfy', cursive;
+}
+.download p{
+    padding: 30px 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #495057;
+}
+.download .apple{
+    border: 1px solid #ffc107;
+    width: 35%;
+    margin: 10px 27px;
+    padding: 16px 70px;
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: black;
+
+}
+.download .apple .myicon{
+    font-size: 40px;
+    margin: 0 -52px;
+}
+.download .apple h4 {
+    font-size: 15px;
+    position: absolute;
+    margin: -40px 0;
+}
+.download .apple h6{
+    font-size: 10px;
+    position: absolute;
+    margin: -12px 0;
+}
+.download .apple:hover{
+    background-color: white;
+    border-color: #eadfdf;
+    cursor: pointer;
+}
+.download .Android{
+    position: absolute;
+    border: 1px solid #eadfdf;
+    width: 35%;
+    margin: -84px 256px;
+    padding: 25px 59px;
+    border-radius: 5px;
+    height: 75px;
+}
+.download .Android .myicon2{
+    font-size: 40px;
+    margin: -8px -46px;
+    color: black;
+}
+.download .Android h4{
+    font-size: 15px;
+    position: absolute;
+    margin: -30px 18px;
+}
+.download .Android h6{
+    font-size: 10px;
+    position: absolute;
+    margin: -5px 18px;
+}
+.download .Android:hover{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    cursor: pointer;
+    color: black;
+}
+.download .Android .myicon2:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/*  Start Responsive */
+    /* for Mobile */
+    @media (max-width: 767px) {
+        .download {
+            margin-top: 70px;
+        }
+        .download .img1 {
+            margin: 170px 0;
+            width: 90%;
+        }
+        .download .img2 {
+            position: absolute;
+            margin: 80px -610px;
+            display: none;
+        }
+        .download .img3 {
+            position: absolute;
+            margin: 370px -315px;
+            display: none;
+        }
+        .download h1 {
+            margin-top: 50px;
+            font-size: 30px;
+            margin-left: 0px;
+            color: black;
+            font-family: 'Satisfy', cursive;
+            text-align: center;
+        }
+        .download p {
+            padding: 25px 0;
+            font-family: sans-serif;
+            font-size: 12px;
+            text-align: center;
+            color: #495057;
+        }
+        .download .apple {
+            border: 1px solid #ffc107;
+            width: 50%;
+            margin: 10px 0;
+            padding: 16px 90px;
+            border-radius: 5px;
+            background-color: #ffc107;
+            color: black;
+        }
+        .download .apple h4 {
+            font-size: 16px;
+            position: absolute;
+            margin: -40px 0;
+        }
+        .download .apple h6 {
+            font-size: 12px;
+            position: absolute;
+            margin: -12px 0;
+        }
+        .download .Android {
+            position: absolute;
+            border: 1px solid #eadfdf;
+            width: 85%;
+            margin: 0;
+            padding: 25px 59px;
+            border-radius: 5px;
+            height: 75px;
+        }
+        .download .Android h6 {
+            font-size: 12px;
+            position: absolute;
+            margin: -5px 15px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+     /*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+    .download {
+        margin-top: 120px;
+    }
+    .download .img2 {
+        position: absolute;
+        margin: 80px -610px;
+        display: none;
+    }
+    .download .img3 {
+        position: absolute;
+        margin: 370px -315px;
+        display: none;
+    }   
+    .download .img1 {
+        margin: 40px 0;
+        width: 80%;
+    }
+    .download h1 {
+        margin-top: 60px;
+        font-size: 30px;
+        margin-left: 0;
+        color: black;
+        font-family: 'Satisfy', cursive;
+    }
+    .download p {
+        padding: 30px 0;
+        font-family: sans-serif;
+        font-size: 15px;
+        text-align: left;
+        color: #495057;
+    }
+    .download .apple {
+        border: 1px solid #ffc107;
+        width: 50%;
+        margin: 10px 0px;
+        padding: 16px 70px;
+        border-radius: 5px;
+        background-color: #ffc107;
+        color: black;
+    }
+    .download .Android {
+        position: absolute;
+        border: 1px solid #eadfdf;
+        width: 45%;
+        margin: -85px 170px;
+        padding: 25px 59px;
+        border-radius: 5px;
+        height: 75px;
+    }
+    .download .Android h6 {
+        font-size: 10px;
+        position: absolute;
+        margin: -5px 12px;
+    }
+}
+
+
+
+
+/* for Laptop */
+@media(min-width: 992px) and (max-width: 1199px) {
+    .download {
+        margin-top: 120px;
+    }
+    .download .img2 {
+        position: absolute;
+        margin: 80px -610px;
+        display: none;
+    }
+    .download .img3 {
+        position: absolute;
+        margin: 370px -315px;
+        display: none;
+    }
+    .download .img1 {
+        margin: 40px 40px;
+        width: 70%;
+    }
+    .download h1 {
+        margin-top: 60px;
+        font-size: 30px;
+        margin-left: 0;
+        color: black;
+        font-family: 'Satisfy', cursive;
+    }
+    .download p {
+        padding: 30px 0;
+        font-family: sans-serif;
+        font-size: 15px;
+        text-align: left;
+        color: #495057;
+    }
+    .download .apple {
+        border: 1px solid #ffc107;
+        width: 40%;
+        margin: 10px 0;
+        padding: 16px 70px;
+        border-radius: 5px;
+        background-color: #ffc107;
+        color: black;
+    }
+    .download .Android {
+        position: absolute;
+        border: 1px solid #eadfdf;
+        width: 40%;
+        margin: -84px 200px;
+        padding: 25px 59px;
+        border-radius: 5px;
+        height: 75px;
+    }
+}

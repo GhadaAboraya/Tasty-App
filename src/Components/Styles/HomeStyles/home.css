@@ -1,0 +1,86 @@
+.header{
+    background-image: url(../../../Images/background.png);
+    background-size: cover;
+    margin: -35px 0;
+}
+.header h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 230px 0;
+    font-family: 'Satisfy', cursive;
+    font-size: 100px;
+}
+
+
+
+
+
+
+ /*  Start Responsive */
+    /* for Mobile */
+    @media (max-width: 767px) {
+        .header {
+            background-image: url(/static/media/background.a18436c8.png);
+            background-size: contain;
+            margin: 0;
+            background-repeat: no-repeat;
+        }
+        .header h1 {
+            text-align: center;
+            color: white;
+            padding: 140px 0;
+            font-family: 'Satisfy', cursive;
+            font-size: 32px;
+        }
+    }
+
+
+
+
+
+
+
+
+    
+/*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+    .header {
+        background-image: url(/static/media/background.a18436c8.png);
+        background-size: contain;
+        margin: 0;
+        background-repeat: no-repeat;
+    }   
+    .header h1 {
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        padding: 200px 0;
+        font-family: 'Satisfy', cursive;
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+
+/* for Laptop */
+@media(min-width: 992px) and (max-width: 1199px) {
+    .header {
+        background-image: url(/static/media/background.a18436c8.png);
+        background-size: contain;
+        margin: 0;
+        background-repeat: no-repeat;
+    }
+    .header h1 {
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        padding: 225px 0;
+        font-family: 'Satisfy', cursive;
+        font-size: 72px;
+    }
+}

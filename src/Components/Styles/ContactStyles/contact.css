@@ -1,0 +1,42 @@
+.contact{
+    background-image: url(../../../Images/About.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh; 
+}
+.contact .con{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    padding: 260px 0;
+    font-family: 'Satisfy', cursive;
+}
+.contact h3{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+    color: black;
+}
+.contact .area {
+    height: 200px;
+    padding: 10px 30px;
+    width: 70%;
+}
+.contact .passs{
+    padding: 20px 20px;
+    margin: 35px 0;
+    width: 70%;
+}
+.contact .bb{
+    border: 1px solid orange;
+    background-color: white;
+    color: orange;
+    width: 35%;
+    padding: 10px 0;
+    margin: 20px 90px;
+}
+.contact .bb:hover{
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+}

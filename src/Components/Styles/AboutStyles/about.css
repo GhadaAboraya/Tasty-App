@@ -1,0 +1,35 @@
+.about {
+    background-image: url(/static/media/About.d4d176e6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.about .abb {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    padding: 260px 0;
+    font-family: 'Satisfy', cursive;
+}
+
+
+
+
+
+/*  Start Responsive */
+    /* for Mobile */
+    @media (max-width: 767px) {
+        .about {
+            background-repeat: no-repeat;
+            background-image: url(/static/media/About.d4d176e6.png);
+            background-size: cover;
+            height: 40vh;
+        }
+        .about .abb {
+            text-align: center;
+            font-size: 35px;
+            color: white;
+            padding: 155px 0;
+            font-family: 'Satisfy', cursive;
+        }
+    }

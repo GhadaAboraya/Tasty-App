@@ -1,0 +1,91 @@
+.candy{
+    margin-top: 180px;
+}
+.datacandy{
+    width: 30%;
+    text-align: center;
+    margin: 0 15px;
+}
+.myimg{
+    width: 60%;
+}
+.candy h1{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Satisfy', cursive;
+}
+.candy p{
+    padding: 45px 0;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #85888a;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+ /*  Start Responsive */
+    /* for Mobile */
+    @media (max-width: 767px) {
+        .candy {
+            margin-top: 75px;
+        }
+        .datacandy {
+            width: 100%;
+            text-align: center;
+            margin: 0 90px;
+        }
+        .candy h1 {
+            font-size: 20px;
+            text-align: center;
+            padding-top: 30px;
+            font-family: 'Satisfy', cursive;
+        }
+        .candy p {
+            padding: 15px 0;
+            font-family: sans-serif;
+            font-size: 12px;
+            color: #85888a;
+            text-align: center;
+        }
+    }
+
+
+
+
+
+
+    /*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+    .candy {
+        margin-top: 100px;
+    }
+    .datacandy {
+        width: 25%;
+        text-align: center;
+        margin: 0 15px;
+    }
+    .myimg {
+        width: 70%;
+    }
+    .candy h1 {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 30px;
+        font-family: 'Satisfy', cursive;
+    }
+    .candy p {
+        padding: 15px 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        color: #85888a;
+        text-align: center;
+    }
+}
